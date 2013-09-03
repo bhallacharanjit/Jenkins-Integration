@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84F0152017D5A80300644644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F0151F17D5A80300644644 /* UIKit.framework */; };
+		84F0152217D5A80300644644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F0152117D5A80300644644 /* Foundation.framework */; };
+		84F0152417D5A80300644644 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F0152317D5A80300644644 /* CoreGraphics.framework */; };
+		84F0152A17D5A80300644644 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84F0152817D5A80300644644 /* InfoPlist.strings */; };
+		84F0152C17D5A80300644644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F0152B17D5A80300644644 /* main.m */; };
+		84F0153017D5A80300644644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F0152F17D5A80300644644 /* AppDelegate.m */; };
+		84F0153217D5A80300644644 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F0153117D5A80300644644 /* Default.png */; };
+		84F0153417D5A80300644644 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F0153317D5A80300644644 /* Default@2x.png */; };
+		84F0153617D5A80300644644 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F0153517D5A80300644644 /* Default-568h@2x.png */; };
+		84F0153917D5A80300644644 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F0153817D5A80300644644 /* ViewController.m */; };
+		84F0153C17D5A80300644644 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F0153A17D5A80300644644 /* ViewController.xib */; };
+		84F0154317D5A94C00644644 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F0154217D5A94C00644644 /* libz.dylib */; };
+		84F0154617D5A97500644644 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F0154417D5A97500644644 /* libTestFlight.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84F0151C17D5A80300644644 /* jenkinsContinuosIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jenkinsContinuosIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F0151F17D5A80300644644 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84F0152117D5A80300644644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84F0152317D5A80300644644 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84F0152717D5A80300644644 /* jenkinsContinuosIntegration-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jenkinsContinuosIntegration-Info.plist"; sourceTree = "<group>"; };
+		84F0152917D5A80300644644 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84F0152B17D5A80300644644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84F0152D17D5A80300644644 /* jenkinsContinuosIntegration-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jenkinsContinuosIntegration-Prefix.pch"; sourceTree = "<group>"; };
+		84F0152E17D5A80300644644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84F0152F17D5A80300644644 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84F0153117D5A80300644644 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84F0153317D5A80300644644 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84F0153517D5A80300644644 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84F0153717D5A80300644644 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84F0153817D5A80300644644 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84F0153B17D5A80300644644 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		84F0154217D5A94C00644644 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		84F0154417D5A97500644644 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		84F0154517D5A97500644644 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F0151917D5A80300644644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F0154317D5A94C00644644 /* libz.dylib in Frameworks */,
+				84F0152017D5A80300644644 /* UIKit.framework in Frameworks */,
+				84F0152217D5A80300644644 /* Foundation.framework in Frameworks */,
+				84F0152417D5A80300644644 /* CoreGraphics.framework in Frameworks */,
+				84F0154617D5A97500644644 /* libTestFlight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84F0151317D5A80300644644 = {
+			isa = PBXGroup;
+			children = (
+				84F0154417D5A97500644644 /* libTestFlight.a */,
+				84F0154517D5A97500644644 /* TestFlight.h */,
+				84F0154217D5A94C00644644 /* libz.dylib */,
+				84F0152517D5A80300644644 /* jenkinsContinuosIntegration */,
+				84F0151E17D5A80300644644 /* Frameworks */,
+				84F0151D17D5A80300644644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84F0151D17D5A80300644644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F0151C17D5A80300644644 /* jenkinsContinuosIntegration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F0151E17D5A80300644644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84F0151F17D5A80300644644 /* UIKit.framework */,
+				84F0152117D5A80300644644 /* Foundation.framework */,
+				84F0152317D5A80300644644 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84F0152517D5A80300644644 /* jenkinsContinuosIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				84F0152E17D5A80300644644 /* AppDelegate.h */,
+				84F0152F17D5A80300644644 /* AppDelegate.m */,
+				84F0153717D5A80300644644 /* ViewController.h */,
+				84F0153817D5A80300644644 /* ViewController.m */,
+				84F0153A17D5A80300644644 /* ViewController.xib */,
+				84F0152617D5A80300644644 /* Supporting Files */,
+			);
+			path = jenkinsContinuosIntegration;
+			sourceTree = "<group>";
+		};
+		84F0152617D5A80300644644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84F0152717D5A80300644644 /* jenkinsContinuosIntegration-Info.plist */,
+				84F0152817D5A80300644644 /* InfoPlist.strings */,
+				84F0152B17D5A80300644644 /* main.m */,
+				84F0152D17D5A80300644644 /* jenkinsContinuosIntegration-Prefix.pch */,
+				84F0153117D5A80300644644 /* Default.png */,
+				84F0153317D5A80300644644 /* Default@2x.png */,
+				84F0153517D5A80300644644 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F0151B17D5A80300644644 /* jenkinsContinuosIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F0153F17D5A80300644644 /* Build configuration list for PBXNativeTarget "jenkinsContinuosIntegration" */;
+			buildPhases = (
+				84F0151817D5A80300644644 /* Sources */,
+				84F0151917D5A80300644644 /* Frameworks */,
+				84F0151A17D5A80300644644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jenkinsContinuosIntegration;
+			productName = jenkinsContinuosIntegration;
+			productReference = 84F0151C17D5A80300644644 /* jenkinsContinuosIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F0151417D5A80300644644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = VP;
+			};
+			buildConfigurationList = 84F0151717D5A80300644644 /* Build configuration list for PBXProject "jenkinsContinuosIntegration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84F0151317D5A80300644644;
+			productRefGroup = 84F0151D17D5A80300644644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F0151B17D5A80300644644 /* jenkinsContinuosIntegration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F0151A17D5A80300644644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F0152A17D5A80300644644 /* InfoPlist.strings in Resources */,
+				84F0153217D5A80300644644 /* Default.png in Resources */,
+				84F0153417D5A80300644644 /* Default@2x.png in Resources */,
+				84F0153617D5A80300644644 /* Default-568h@2x.png in Resources */,
+				84F0153C17D5A80300644644 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F0151817D5A80300644644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F0152C17D5A80300644644 /* main.m in Sources */,
+				84F0153017D5A80300644644 /* AppDelegate.m in Sources */,
+				84F0153917D5A80300644644 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84F0152817D5A80300644644 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F0152917D5A80300644644 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84F0153A17D5A80300644644 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F0153B17D5A80300644644 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84F0153D17D5A80300644644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84F0153E17D5A80300644644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84F0154017D5A80300644644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jenkinsContinuosIntegration/jenkinsContinuosIntegration-Prefix.pch";
+				INFOPLIST_FILE = "jenkinsContinuosIntegration/jenkinsContinuosIntegration-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84F0154117D5A80300644644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jenkinsContinuosIntegration/jenkinsContinuosIntegration-Prefix.pch";
+				INFOPLIST_FILE = "jenkinsContinuosIntegration/jenkinsContinuosIntegration-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F0151717D5A80300644644 /* Build configuration list for PBXProject "jenkinsContinuosIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F0153D17D5A80300644644 /* Debug */,
+				84F0153E17D5A80300644644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F0153F17D5A80300644644 /* Build configuration list for PBXNativeTarget "jenkinsContinuosIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F0154017D5A80300644644 /* Debug */,
+				84F0154117D5A80300644644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F0151417D5A80300644644 /* Project object */;
+}
